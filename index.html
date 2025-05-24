@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STREET-BEAT - Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="m1000x1000.jfif" alt="Логотип">
+                    <span>STREET-BEAT</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link active">Главная</a>
+                    <a href="catalog.html" class="nav__link">Каталог</a>
+                    <a href="contacts.html" class="nav__link">Контакты</a>
+                    <a href=partners.html" class="nav__link">Партнеры</a>
+                </nav>
+                <div class="header__actions">
+                    <button class="btn btn--cart">Корзина</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('https://storage.myseldon.com/news-pict-9b/9B32F1F23CD0242CA1FC7DD609A98DA7')">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Лучшие кроссовки для вас</h1>
+                    <p class="hero__text">Откройте для себя качество и стиль</p>
+                    <a href="pages/catalog.html" class="btn btn--primary">В каталог</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section products">
+            <div class="container">
+                <h2 class="section__title">Популярные товары</h2>
+                <div class="products__grid">
+                    <div class="product-card">
+                        <div class="product-card__image img1"></div>
+                        <h3 class="product-card__title">Nike Air Force 1 </h3>
+                        <p class="product-card__price">2 990 ₽</p>
+                        <button class="btn btn--small">В корзину</button>
+                    </div>
+                    
+                    <div class="product-card highlighted">
+                        <div class="product-card__image img2"></div>
+                        <h3 class="product-card__title">Nike Air Max 1</h3>
+                        <p class="product-card__price">3 490 ₽</p>
+                        <button class="btn btn--small">В корзину</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-card__image img3"></div>
+                        <h3 class="product-card__title">Nike React Infinity Run</h3>
+                        <p class="product-card__price">4 290 ₽</p>
+                        <button class="btn btn--small">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about">
+            <div class="container">
+                <div class="about__grid">
+                    <div class="about__map img4"></div>
+                    <div class="about__info">
+                        <h2 class="section__title">О нашей компании</h2>
+                        <p>Мы работаем на рынке уже более 10 лет, предлагая клиентам только качественные товары по доступным ценам. Наша миссия - сделать покупки удобными и приятными.</p>
+                        <ul class="about__features">
+                            <li>Более 1000 довольных клиентов</li>
+                            <li>Гарантия качества на все товары</li>
+                            <li>Быстрая доставка</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reviews">
+            <div class="container">
+                <h2 class="section__title">Отзывы наших клиентов</h2>
+                <div class="reviews__grid">
+                    <div class="review-card">
+                        <div class="review-card__header">
+                            <div class="review-card__avatar" style="background-image: url('https://randomuser.me/api/portraits/women/43.jpg')"></div>
+                            <div class="review-card__author">
+                                <h4>Анна К.</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-card__text">Отличный магазин! Быстрая доставка, товар соответствует описанию. Буду покупать еще!</p>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-card__header">
+                            <div class="review-card__avatar" style="background-image: url('https://randomuser.me/api/portraits/men/32.jpg')"></div>
+                            <div class="review-card__author">
+                                <h4>Иван П.</h4>
+                                <div class="stars">★★★★☆</div>
+                            </div>
+                        </div>
+                        <p class="review-card__text">Хороший ассортимент, приятные цены. Рекомендую!</p>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-card__header">
+                            <div class="review-card__avatar" style="background-image: url('https://randomuser.me/api/portraits/women/65.jpg')"></div>
+                            <div class="review-card__author">
+                                <h4>Марина С.</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-card__text">Заказывала уже несколько раз - всегда на высоте! Спасибо!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <div class="logo">
+                        <img src="image/m1000x1000.jfif" alt="Логотип">
+                        <span>STREET-BEAT</span>
+                    </div>
+                    <p>© 2023 STREET-BEAT. Все права защищены.</p>
+                </div>
+                
+                <div class="footer__col">
+                    <h4>Меню</h4>
+                    <ul class="footer__menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="partners.html">Партнеры</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__col">
+                    <h4>Контакты</h4>
+                    <p>г. Москва, ул. Примерная, 123</p>
+                    <p>+7 (123) 456-78-90</p>
+                    <p>info@example.com</p>
+                </div>
+                
+                <div class="footer__col">
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-links">
+                        <a href="https://vk.com/streetbeat_ru" class="icon-vk"></a>
+                        <a href="https://t.me/s/streetbeatru" class="icon-telegram"></a>
+                        <a href="https://www.instagram.com/streetbeat_ru/" class="icon-instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
